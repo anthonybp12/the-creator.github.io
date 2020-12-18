@@ -1,0 +1,84 @@
+body{
+    width:500px;
+}
+
+#topbanner{
+    background-color:red;
+    color:white;
+    padding:10px;
+    text-align: center;
+    font-size:20px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mainheading{
+    text-align: center;
+}
+
+.mainheading > h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.mainheading > p{
+    margin-top:0px;
+    margin-bottom:100px;
+    font-size:30px;
+}
+
+.mainrestaurant{
+    margin-bottom: 20px;
+}
+
+.mainrestaurant :nth-child(1){
+    font-size:20px;
+    font-style: italic;
+}
+
+.mainrestaurant > img{
+    object-fit:cover;
+}
+
+.mainrestaurant :nth-child(3){
+    margin-top:10px;
+    font-size:25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#bottomrestaurants{
+    display:flex;
+    justify-content:center;
+    font-style: italic;
+}
+
+#bottomrestaurants > div > h3{
+    font-size:18px;
+    text-align:center;
+    margin-top:0px;
+}
+
+#bottomrestaurants > div > img{
+    height:130px;
+    width:130px;
+    margin:0px 20px;
+    border:2px solid gray;
+}
+
+#foods{
+    margin-top:0px;
+    margin-bottom:40px;
+    font-size: 15px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+#perkspromo{
+    width:800px;
+}
+
+#bottomlogo{
+    margin-top:40px;
+    text-align:center;
+}
